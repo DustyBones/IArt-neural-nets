@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 using System.Globalization;
 using System.Threading;
 
+/// vou escrever aqui coisas para ver se isto está a funcionar
+
+
 //for PCA
 using Accord.Math;
 using Accord.Statistics;
@@ -17,6 +20,9 @@ namespace teste
     {
         static void Main(string[] args)
         {
+
+            int lol = 0; //criar uma variavel para ver o efeito no commit
+
 
             //***************************************language sintax********************************
             //*************************************************************************************

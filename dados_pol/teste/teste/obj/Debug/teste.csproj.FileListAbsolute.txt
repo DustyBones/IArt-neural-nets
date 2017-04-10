@@ -22,3 +22,6 @@ C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debu
 C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debug\Accord.Math.xml
 C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debug\Accord.Math.Core.xml
 C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debug\Accord.Statistics.xml
+C:\Users\ricardo-abreu\GitStuff\Iart-neural-nets\dados_pol\teste\teste\bin\Debug\teste.exe.config
+C:\Users\ricardo-abreu\GitStuff\Iart-neural-nets\dados_pol\teste\teste\obj\Debug\teste.exe
+C:\Users\ricardo-abreu\GitStuff\Iart-neural-nets\dados_pol\teste\teste\obj\Debug\teste.pdb
