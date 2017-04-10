@@ -1,5 +1,5 @@
 A 1ª VEZ:
-1.dizer quem sou (só necessário a 1ª vez)
+1.dizer quem sou
 git config --global user.name "<NAME>"   ===> git config --global user.name "Ricardo Abreu"
 git config --global user.email "<email>"  ===> git config --global user.email "ricardo.filipe.saleiro.abreu@gmail.com"
 
@@ -21,7 +21,7 @@ Os repositórios locais consistem em três "árvores" mantidas pelo git. A prime
 Posso criar um repositorio git. Para converter um projeto normal num git:
 3. git init <path>
 Ou então, clonar um preexistente:
-3. git clone xxxx
+3. git clone <path>
 
 4. Propôr mudanças (adicioná-las ao Index) 
 git add src  ===> git add dados_pol
@@ -36,7 +36,7 @@ git push origin master
 
 7.apagar o branch temporario
 cd ..
-rm -r <working>  ===> rm -r "C:\Users\ricardo-abreu\GitStuff"
+rm -r <working>  ===> rm -r "C:\Users\ricardo-abreu\GitStuff"  //é capaz de dar problems. Simplesmente, vao lá e apaguem
 
 
 
@@ -68,3 +68,7 @@ git commit -m "<commit comment>" ===> git commit -m "aqui voces escrevem o comen
 git push origin my_working_stuff
 
 7.agora vai aparecer a mensagem do pull request. Feito
+
+8.apagar o branch temporario
+cd ..
+rm -r <working>  ===> rm -r "C:\Users\ricardo-abreu\GitStuff"  //é capaz de dar problems. Simplesmente, vao lá e apaguem
