@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using System.Globalization;
 using System.Threading;
 
+//alterando + cenas
+
 //for PCA
 using Accord.Math;
 using Accord.Statistics;
