@@ -1,34 +1,71 @@
+A 1ª VEZ:
 1.dizer quem sou (só necessário a 1ª vez)
 git config --global user.name "<NAME>"   ===> git config --global user.name "Ricardo Abreu"
 git config --global user.email "<email>"  ===> git config --global user.email "ricardo.filipe.saleiro.abreu@gmail.com"
 
-2. criar e navegar para uma working directory
+2. criar um repositorio onde vou por as cenas temporariamente
 mkdir <working>  ===> mkdir "C:\Users\ricardo-abreu\GitStuff"
+//ou fazer á mao claro
 cd <working>  ===> cd "C:\Users\ricardo-abreu\GitStuff"
 
-///se estiver a usar github
+///se estiver a usar github  ----> é o que estamos a usar!
 3.importar o repositorio do github
 git clone https://github.com/<user>/<repository>  ===> git clone https://github.com/RicardoFAbreu/Iart-neural-nets
 cd <repository> ===> cd Iart-neural-nets
-
-4.copiar os ficheiros a por no repositorio e adicioná-los
+//copiar os ficheiros a por no repositorio:
 cp -R <path>/src . ===> cp -R "C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol" .
-git add src  ===> git add dados_pol
 
 ///se estiver a usar git apenas
-[a unica diferença entre um repositorio Git e um normal é o o diretorio .git extra na raiz do projeto.]
+[a unica diferença entre um repositorio Git e um normal é o o diretorio .git extra na raiz do projeto.
+Os repositórios locais consistem em três "árvores" mantidas pelo git. A primeira delas é a "Working Directory" que contém os arquivos vigentes. A segunda é a "Index" que funciona como uma área temporária e finalmente a "HEAD" que aponta para o último commit]
 Posso criar um repositorio git. Para converter um projeto normal num git:
-3 e 4. git init <path>
+3. git init <path>
 Ou então, clonar um preexistente:
-3 e 4. git clone ssh://<user>@<host>/path/to/repo.git
-isto faz log na <host> machine usando SSH e faz o download do repo.git.
+3. git clone xxxx
 
-5. commit das alterações
+4. Propôr mudanças (adicioná-las ao Index) 
+git add src  ===> git add dados_pol
+
+5. commit (confirmação das mudanças => adicioná-las ao HEAD)
 git commit -m "<commit comment>" ===> git commit -m "let's hope this works!"
 
-6.push
+6.push (enviar as alterações)
+//as alterações agora estão no HEAD da cópia de trabalho local. Para enviar estas alterações para o repositório remoto, usar:
 git push origin master
+//alterar master para qualquer ramo (branch) desejado, enviando suas alterações para ele. 
 
 7.apagar o branch temporario
 cd ..
 rm -r <working>  ===> rm -r "C:\Users\ricardo-abreu\GitStuff"
+
+
+
+
+A 2ª VEZ:
+1.No github, criar um branch do master (para fazer as alterações lá). Por exemplo, eu criei um ramo a que chamei "my_working_stuff".
+//Se fosse a fazer manualmente, usavamos os comandos:
+git checkout -b <novo_branch> //criar o novo branch <novo_branch>
+git checkout master //retornar ao master
+git branch -d <novo_branch> //remover o branch que criamos
+
+2. criar um repositorio onde vou por as cenas temporariamente
+mkdir <working>  ===> mkdir "C:\Users\ricardo-abreu\GitStuff"
+cd <working>  ===> cd "C:\Users\ricardo-abreu\GitStuff"
+
+3.importar o repositorio em que vamos trabalhar do github. Agora queremos copiar apenas um dados branch. Podemos fazer isso assim:
+git clone <url> --branch <branch> --single-branch [<folder>] ===> git clone "https://github.com/RicardoFAbreu/IArt-neural-nets.git" --branch my_working_stuff --single-branch
+//ou git clone <url> --branch <branch> --single-branch [<folder>] ===> git clone "https://github.com/RicardoFAbreu/IArt-neural-nets.git" --branch my_working_stuff --single-branch "alguma subpasta que voces queiram"
+
+3(1/2).agora, modifiquei o código nessa pasta como quiserem
+
+4. Propôr mudanças (adicioná-las ao Index) 
+git add src  ===> git add dados_pol  //assumindo que vocês só fizeram alterações nesta pasta!
+git push origin <funcionalidade_x>
+
+5. commit (confirmação das mudanças => adicioná-las ao HEAD)
+git commit -m "<commit comment>" ===> git commit -m "aqui voces escrevem o comentário da vossa alteração"
+
+6.push (enviar as alterações)
+git push origin my_working_stuff
+
+7.agora vai aparecer a mensagem do pull request. Feito
