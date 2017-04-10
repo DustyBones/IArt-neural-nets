@@ -1,0 +1,25 @@
+1.dizer quem sou (só necessário a 1ª vez)
+git config --global user.name "<NAME>"   ===> git config --global user.name "Ricardo Abreu"
+git config --global user.email "<email>"  ===> git config --global user.email "ricardo.filipe.saleiro.abreu@gmail.com"
+
+2. criar e navegar para uma working directory
+mkdir <working>  ===> mkdir "C:\Users\ricardo-abreu\GitStuff"
+cd <working>  ===> cd "C:\Users\ricardo-abreu\GitStuff"
+
+3.importar o repositorio do github
+git clone https://github.com/<user>/<repository>  ===> git clone https://github.com/RicardoFAbreu/Iart-neural-nets
+cd <repository> ===> cd Iart-neural-nets
+
+4.copiar os ficheiros a por no repositorio e adicioná-los
+cp -R <path>/src . ===> cp -R "C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol" .
+git add src  ===> git add dados_pol
+
+5. commit das alterações
+git commit -m "<commit comment>" ===> git commit -m "let's hope this works!"
+
+6.push
+git push origin master
+
+7.apagar o branch temporario
+cd ..
+rm -r <working>  ===> rm -r "C:\Users\ricardo-abreu\GitStuff"
