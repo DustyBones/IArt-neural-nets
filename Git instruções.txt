@@ -1,4 +1,4 @@
-1.dizer quem sou (só necessário a 1ª vez)
+1.dizer quem sou (sÃ³ necessÃ¡rio a 1Âª vez)
 git config --global user.name "<NAME>"   ===> git config --global user.name "Ricardo Abreu"
 git config --global user.email "<email>"  ===> git config --global user.email "ricardo.filipe.saleiro.abreu@gmail.com"
 
@@ -6,15 +6,24 @@ git config --global user.email "<email>"  ===> git config --global user.email "r
 mkdir <working>  ===> mkdir "C:\Users\ricardo-abreu\GitStuff"
 cd <working>  ===> cd "C:\Users\ricardo-abreu\GitStuff"
 
+///se estiver a usar github
 3.importar o repositorio do github
 git clone https://github.com/<user>/<repository>  ===> git clone https://github.com/RicardoFAbreu/Iart-neural-nets
 cd <repository> ===> cd Iart-neural-nets
 
-4.copiar os ficheiros a por no repositorio e adicioná-los
-cp -R <path>/src . ===> cp -R "C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol" .
+4.copiar os ficheiros a por no repositorio e adicionÃ¡-los
+cp -R <path>/src . ===> cp -R "C:\Users\ricardo-abreu\Desktop\dados_pol - CÃ³pia\dados_pol" .
 git add src  ===> git add dados_pol
 
-5. commit das alterações
+///se estiver a usar git apenas
+[a unica diferenÃ§a entre um repositorio Git e um normal Ã© o o diretorio .git extra na raiz do projeto.]
+Posso criar um repositorio git. Para converter um projeto normal num git:
+3 e 4. git init <path>
+Ou entÃ£o, clonar um preexistente:
+3 e 4. git clone ssh://<user>@<host>/path/to/repo.git
+isto faz log na <host> machine usando SSH e faz o download do repo.git.
+
+5. commit das alteraÃ§Ãµes
 git commit -m "<commit comment>" ===> git commit -m "let's hope this works!"
 
 6.push
