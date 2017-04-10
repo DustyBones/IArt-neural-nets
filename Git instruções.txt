@@ -60,7 +60,6 @@ git clone <url> --branch <branch> --single-branch [<folder>] ===> git clone "htt
 
 4. Propôr mudanças (adicioná-las ao Index) 
 git add src  ===> git add dados_pol  //assumindo que vocês só fizeram alterações nesta pasta!
-git push origin <funcionalidade_x>
 
 5. commit (confirmação das mudanças => adicioná-las ao HEAD)
 git commit -m "<commit comment>" ===> git commit -m "aqui voces escrevem o comentário da vossa alteração"
