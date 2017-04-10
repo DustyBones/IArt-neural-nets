@@ -1,0 +1,24 @@
+c:\users\up201304450\documents\visual studio 2015\Projects\teste\teste\bin\Debug\teste.exe.config
+C:\Users\ricardo-abreu\Downloads\dados_pol\dados_pol\teste\teste\bin\Debug\teste.exe.config
+C:\Users\ricardo-abreu\Downloads\dados_pol\dados_pol\teste\teste\bin\Debug\teste.exe
+C:\Users\ricardo-abreu\Downloads\dados_pol\dados_pol\teste\teste\bin\Debug\teste.pdb
+C:\Users\ricardo-abreu\Downloads\dados_pol\dados_pol\teste\teste\obj\Debug\teste.csprojResolveAssemblyReference.cache
+C:\Users\ricardo-abreu\Downloads\dados_pol\dados_pol\teste\teste\obj\Debug\teste.exe
+C:\Users\ricardo-abreu\Downloads\dados_pol\dados_pol\teste\teste\obj\Debug\teste.pdb
+C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debug\teste.exe.config
+C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\obj\Debug\teste.exe
+C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\obj\Debug\teste.pdb
+C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debug\teste.exe
+C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debug\teste.pdb
+C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\obj\Debug\teste.csprojResolveAssemblyReference.cache
+C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debug\Accord.dll.config
+C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debug\Accord.dll
+C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debug\Accord.MachineLearning.dll
+C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debug\Accord.Math.Core.dll
+C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debug\Accord.Math.dll
+C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debug\Accord.Statistics.dll
+C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debug\Accord.xml
+C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debug\Accord.MachineLearning.xml
+C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debug\Accord.Math.xml
+C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debug\Accord.Math.Core.xml
+C:\Users\ricardo-abreu\Desktop\dados_pol - Cópia\dados_pol\teste\teste\bin\Debug\Accord.Statistics.xml
